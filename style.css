@@ -99,7 +99,7 @@ input[type="submit"]:hover {
 .Shopfaster {
   width: 100px;
   height: 100px;
-  background-color: #f56040;
+  background-color: #9eb9f3;
   position: relative;
   animation-name: example;
   animation-duration: 4s;
@@ -107,7 +107,7 @@ input[type="submit"]:hover {
 
 @keyframes example {
   0% {
-    background-color: #405de6;
+    background-color: #364dc2;
     left: 0px;
     top: 0px;
   }
@@ -139,21 +139,6 @@ input[type="submit"]:hover {
   display: flex;
   margin-top: 100px;
   margin-left: 20%;
-}
-
-.column {
-  flex: 1;
-  box-sizing: border-box;
-}
-
-.column-one {
-  order: 2;
-}
-.column-two {
-  order: 3;
-}
-.column-three {
-  order: 4;
 }
 
 /* slideshow*/
@@ -277,3 +262,4 @@ input[type="submit"]:hover {
   color: white;
   text-align: center;
 }
+
