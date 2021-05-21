@@ -1,0 +1,87 @@
+/*------ SKILL BAR START------------------------*/
+.container {
+  max-width: 300px;
+  background-color: #ccc;
+  border-radius: 20px;
+  margin: auto;
+  flex-direction: column;
+
+
+
+}
+.Skill-bar{
+    padding-bottom:70px;
+
+}
+
+.skills {
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  border-radius: 20px;
+
+}
+
+.skill-name{
+	text-align: center;
+	font-size: 12px;
+    font-family: Arial, sans-serif;
+}
+.html {width: 55%; background-color:  #6f94dc;}
+.css {width: 30%; background-color:  #6f94dc;}
+.js {width: 15%; background-color:  #6f94dc;}
+.php {width: 100%; background-color: #6f94dc;}
+
+/*-------SKILL BAR END-------------------------*/
+
+/*--------PRESENTATION--------------------------*/
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: column;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("pictures/Cami-header.jpg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: #ddd;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+/*---------------------*/
+.Presentation{
+    flex-direction: column;
+    background-color:white;
+
+
+}
